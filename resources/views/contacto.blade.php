@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="rainbow-contact-area rainbow-section-gap">
-    <div class="container">
+    <div class="container container-section">
         <div class="row">
             <div class="col-lg-12 mb--40">
                 <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700"

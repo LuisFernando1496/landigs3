@@ -4,6 +4,7 @@
 <!-- Start Slider Area  -->
 <div
     class="slider-area slider-style-4 variation-2 slider-activation slider-dot rainbow-slick-dot rainbow-slick-arrow">
+
     <!-- Start Single Slider  -->
     <div class="height-950 bg-overlay bg_image bg_image--1 d-flex align-items-center" data-black-overlay="5">
         <div class="container">
@@ -15,7 +16,7 @@
                             <br> Brindamos protección a familias y bienes con amplia cobertura.
                         </p>
                         <div class="button-group mt--30">
-                            <a class="btn-default" href="#">Cotizar</a>
+                            <a class="btn-default" href="{{route('contacto')}}">Cotizar</a>
                         </div>
 
                     </div>
@@ -34,7 +35,7 @@
                         <p class="description">Estamos comprometidos con la proteción de lo que realmente es
                             importante para ti.</p>
                         <div class="button-group mt--30">
-                            <a class="btn-default" href="#">Cotizar</a>
+                            <a class="btn-default" href="{{route('contacto')}}">Cotizar</a>
                         </div>
                     </div>
                 </div>
@@ -52,7 +53,7 @@
                         <p class="description">Nos ajustamos a los diferentes esquemas que exige cada tipo de
                             área.</p>
                         <div class="button-group mt--30">
-                            <a class="btn-default" href="#">Cotizar</a>
+                            <a class="btn-default" href="{{route('contacto')}}">Cotizar</a>
                         </div>
                     </div>
                 </div>
@@ -248,7 +249,7 @@
                                             </div>
                                             <div class="read-morebtn" data-sal="slide-up"
                                                 data-sal-duration="700" data-sal-delay="400">
-                                                <a class="btn-default btn-large round" href="contact.html">
+                                                <a class="btn-default btn-large round" href="{{route('servicios')}}">
                                                     <span>Ver más</span>
                                                 </a>
                                             </div>

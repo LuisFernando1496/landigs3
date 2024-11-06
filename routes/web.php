@@ -30,4 +30,8 @@ Route::get('/contacto', function () {
     return view('contacto');
 })->name('contacto');
 
+Route::get('/agradecimiento', function () {
+    return view('agradecimiento');
+})->name('agradecimiento');
+
 Route::post('/email/send',[ContactController::class,'sendContactEmail'])->name('contact.send');

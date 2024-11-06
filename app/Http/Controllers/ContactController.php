@@ -29,6 +29,6 @@ class ContactController extends Controller
 
         Mail::to('salinas.fernando.orantes@gmail.com')->send(new contactNotification($details));
 
-        return back()->with('message', 'Correo enviado. ¡Gracias por escribirnos!, uno de nuestros ejecutivos te contestara en breve');
+        return redirect()->route('agradecimiento');
     }
 }
