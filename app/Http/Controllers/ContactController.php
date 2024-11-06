@@ -27,7 +27,7 @@ class ContactController extends Controller
             'phone_number' => $request->input('phone_number'),
         ];
 
-        Mail::to('salinas.fernando.orantes@gmail.com')->send(new contactNotification($details));
+        Mail::to('avisosycontratos@seguridadprivadas3.com')->send(new contactNotification($details));
 
         return redirect()->route('agradecimiento');
     }
