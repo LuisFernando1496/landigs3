@@ -28,7 +28,7 @@ class contactNotification extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            from: 'contacto@mwconsultores.com.mx',  // Puedes agregar el remitente aquí
+            from: 'servicionotificacion@seguridadprivadas3.com',  // Puedes agregar el remitente aquí
             subject: 'Correo de Notification'
         );
     }
