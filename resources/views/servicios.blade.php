@@ -42,7 +42,7 @@
                                 <li><i class="feather-check"></i> UI/UX designs</li>
                             </ul>
                         </div>
-                        <div class="pricing-footer"><a class="btn-default btn-border" href="#">Purchase Now</a>
+                        <div class="pricing-footer"><a class="btn-default btn-border" href="{{route('contacto')}}">Preguntar</a>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                                 <li><i class="feather-check"></i> orden, diciplina e instrucción</li>
                             </ul>
                         </div>
-                        <div class="pricing-footer"><a class="btn-default" href="#">Purchase Now</a>
+                        <div class="pricing-footer"><a class="btn-default" href="{{route('contacto')}}">Preguntar</a>
                         </div>
                     </div>
                 </div>

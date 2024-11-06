@@ -36,7 +36,7 @@
                 <div class="row align-items-center row--0">
                     <div class="col-lg-3 col-md-6 col-4">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="{{route('home')}}">
                                 <img class="logo-light" src="{{asset('doob/images/logo/logo_s3.png')}}" alt="Corporate Logo">
                                 <img class="logo-dark" src="{{asset('doob/images/logo/logo_s3.png')}}" alt="Corporate Logo">
                             </a>
@@ -115,7 +115,7 @@
             <div class="inner">
                 <div class="header-top">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="{{route('home')}}">
                             <img class="logo-light" src="{{asset('doob/images/logo/logo_s3.png')}}" alt="Corporate Logo">
                             <img class="logo-dark" src="{{asset('doob/images/logo/logo_s3.png')}}" alt="Corporate Logo">
                         </a>

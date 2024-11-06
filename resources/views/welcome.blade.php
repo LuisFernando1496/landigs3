@@ -816,18 +816,18 @@
 
         <div class="row mt--40 row--15">
             <div class="col-lg-7">
-                <form class="contact-form-1 rainbow-dynamic-form" id="contact-form" method="POST"
-                    action="mail.php">
+            <form action="{{ route('contact.send') }}" method="POST">
+            @csrf
                     <div class="form-group">
-                        <input type="text" name="contact-name" id="contact-name"
+                        <input type="text" name="name" id="contact-name"
                             placeholder="Ingresa tu nombre completo">
                     </div>
                     <div class="form-group">
-                        <input type="text" name="contact-phone" id="contact-phone"
+                        <input type="text" name="phone_number" id="contact-phone"
                             placeholder="Numero teléfono">
                     </div>
                     <div class="form-group">
-                        <input type="email" id="contact-email" name="contact-email"
+                        <input type="email" id="contact-email" name="email"
                             placeholder="Tu correo electrónico">
                     </div>
 
@@ -836,7 +836,7 @@
                             </div> -->
 
                     <div class="form-group">
-                        <textarea name="contact-message" id="contact-message"
+                        <textarea name="message" id="contact-message"
                             placeholder="Escribir mensaje"></textarea>
                     </div>
 
